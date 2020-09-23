@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black; /* For browsers that do not support gradients */
+        
+            background-image: linear-gradient(to bottom right, black, purple, teal);
+          }
+
+.header {
+    padding: 20px;
+    opacity: 0.5;
+    font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    color:white;
+}
+
+aside {
+    font-size: 16px;
+    color:white;
+}
+
+.hero {
+    height: 400px;
+    width: 100%;
+    opacity: 0.5;
+    margin-bottom: 25px;
+    background-image: url("../images/coding-lines.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+
+.benefitmain {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* 
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+*/
+
+
+.benefitmain h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* 
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+*/
+
+
+.benefitmain img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*  
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+*/
+.maincontent {
+    margin-bottom: 20px;
+    padding: auto;
+    height: auto;
+    border-radius: 25px;
+    font-family: 'Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #4e4e4e;
+    color: #ffffff;
+} 
+
+/* 
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+*/
+
+.maincontent img {
+    max-height: 200px;
+}
+/*  
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+*/
+
+.maincontent h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* 
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+/* Style for inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style for the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, adds teal color */
+  input[type=submit]:hover {
+    background-color: teal;
+  }
+  
+  /* The background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .footer {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: fixed;
+    text-align: center;
+  }
+
+  .footer-1 {
+    background: #4e4e4e;
+    color: white;
+    padding: 0.5px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+   
+
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: auto;
+
+
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  color: white;
+}
+
+.fa-twitter {
+  
+  color: white;
+}
+
+.fa-linkedin {
+    
+    color: white;
+  }
+
+  .fa-instagram {
+    
+    color: white;
+  }
+
+div.container3 {
+    height: 5em;
+    position: relative }              /* 1 */
+
+div.container3 p {
+    margin: 0;
+    position: absolute;               /* 2 */
+    top: 50%;                         /* 3 */
+    transform: translate(0, -50%) }   /* 4 */
+
+div.background {
+        background: url(klematis.jpg) repeat;
+        border: 2px solid black;
+      }
+      
+      div.transbox {
+        margin: 30px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.9;
+      }
+      
+      div.transbox p {
+        margin: 5%;
+        font-weight: bold;
+        color: #000000;
+      }
+    
