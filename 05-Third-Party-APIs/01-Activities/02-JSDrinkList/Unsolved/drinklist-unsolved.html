@@ -29,6 +29,7 @@
 
     // 1. Create code that "grabs" the div with the matching id (#drink-options);
     // ...
+        var drinkDiv  = document.getElementById("drink-options");
 
 
     // ...
@@ -38,6 +39,17 @@
     // HINT: You will need to use each of the following methods: createElement, textContent, appendChild
     // ...
 
+    // use a for loop to iterate through all the drinks in the drinklist
+    for (var i =0; i < drinkList.length; i++) {
+
+      // create a new <p> element
+        var newDrinkP = document.createElement("p");
+
+        newDrinkP.textContent = drinkList[i];
+
+        // add the paragraph to our main div on the page
+        drinkDiv.appendChild(newDrinkP);
+    }
 
     // ...
 

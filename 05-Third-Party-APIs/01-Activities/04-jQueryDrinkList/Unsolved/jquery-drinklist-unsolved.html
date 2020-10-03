@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>JavaScript Content!</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
 
@@ -27,6 +28,27 @@
 
     // Using JavaScript programmatically append each drinkList item to the "drink-options" div
     // HINT: you will need a for loop to go over each element in the list
+
+    // 1.selecting the drink option element into a var
+       var drinkDiv = $('#drink-options');
+
+
+    //2. set up for loop to loop thru array of drinkList
+
+    for (var i =0; i < drinkList.length; i++){
+
+    //2A create a new div for ea drink ... also add the content in the same line 
+       var newDrinkDiv = $("<div>" + drinkList[i] + "</div>");
+
+    //2B add the new to the drinkList dive /// append child to parent
+    drinkDiv.append(newDrinkDiv);
+
+
+
+    }
+
+    
+
 
 
   </script>

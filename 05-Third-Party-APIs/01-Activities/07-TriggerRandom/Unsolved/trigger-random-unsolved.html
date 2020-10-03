@@ -37,8 +37,21 @@
       // CREATE THE MISSING CODE HERE. Your code should add content to the random-number div.
       // ...
 
+      // write the 'on' function for when the random-button is clicked 
+       $("#random-button").on("click", function() {
 
-      // ...
+        // anon function 
+         // generate random number
+
+           var random = Math.floor(Math.random() * 1000) + 1;
+             /// mult by 1000 to make it === 0-999 ... add 1 to make it 1-1000
+               // math.floor to round the decimal down 
+             // display the randome number into the randome-number div
+
+             $("#random-button").text(random);
+
+       });
+       
 
     });
 
