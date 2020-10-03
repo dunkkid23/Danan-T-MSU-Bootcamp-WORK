@@ -66,6 +66,21 @@
           </div>
         </div>
 
+        <!-- Controls (Stretch) -->
+        <div id="stretchControls" class="card">
+        <h4 class="card-header">Superpowers - Stretch!</h4>
+        <div class="card-body">
+        <div class="text-center">
+          <button class="btn btn-dark btn-lg unstretch-btn">
+            <span class="fa fa-compress"></span> Normal</button>
+          <button class="btn btn-primary btn-lg stretch-btn">
+            <span class="fa fa-expand"></span> Stretch</button>
+        </div>
+        </div>
+        </div>
+
+
+
         <!-- Controls (Superpower Move Controls) -->
         <div id="moveControls" class="card">
           <h4 class="card-header">Move Controls</h4>
@@ -132,6 +147,19 @@
     });
     $(".invis-button").on("click", function() {
       captainPlanet.animate({ opacity: "0.05" });
+    });
+
+    // stretch Buttons
+    $(".stretch-btn").on("click", function() {
+      captainPlanet.animate({height: "1000px", width:"200px"});
+    });
+    // $(".unstretch-btn").on("click", function() {
+    //   captainPlanet.animate({height: "300px", width:"450px"});
+    // });
+
+    //rotate
+    $(".unstretch-btn").on("click", function() {
+       captainPlanet.animate({rotate: '180deg'}, 1000);
     });
 
     // Move Buttons
