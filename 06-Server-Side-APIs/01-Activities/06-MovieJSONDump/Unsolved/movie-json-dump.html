@@ -45,6 +45,13 @@
 
         // =================================================================
 
+        $.ajax({
+          url : queryURL,
+          method: "GET"
+        }).then(function(response){
+          $("#movie-view").text(JSON.stringify(response))
+        })
+
         // CODE GOES HERE
 
         // =================================================================

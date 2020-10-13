@@ -49,20 +49,42 @@
           url: queryURL,
           method: "GET"
         }).then(function(response) {
-
+           console.log(response);
           // Creates a div to hold the movie
-          // Retrieves the Rating Data
-          // Creates an element to have the rating displayed
-          // Displays the rating
-          // Retrieves the release year
-          // Creates an element to hold the release year
-          // Displays the release year
-          // Retrieves the plot
-          // Creates an element to hold the plot
-          // Appends the plot
+           var movieDiv = $("<div class='movie'>");
+          // // Retrieves the Rating Data
+          //   var rating =  response.Rated;
+          //   console.log(rating);
+
+          // // Creates an element to have the rating displayed
+          //   var pOne = $("<p>").text("Rating: " + rating);
+          // // Displays the rating
+          // movieDiv.append(pOne);
+          // // Retrieves the release year
+          //   var released = response.Released;
+          // // Creates an element to hold the release year
+          // var pTwo = $("<p>").text("Released: " + released);
+
+          // // Displays the release year
+          // movieDiv.append(pTwo);
+          // // Retrieves the plot
+          // var plot = response.Plot;
+          // // Creates an element to hold the plot
+          // var pThree = $("<p>").text("Plot: " + plot);
+
+          // // Appends the plot
+          // movieDiv.append(pThree);
+          
+          // retrieving the url for the image
+          var imgURL = response.Poster;
+          console.log = (imgURL);
           // Creates an element to hold the image
+          var image = $("<img>").attr("src",imgURL)
+
           // Appends the image
+          movieDiv.append(image);
           // Puts the entire Movie above the previous movies.
+          $("#movies-view").prepend(movieDiv);
         });
 
       }
