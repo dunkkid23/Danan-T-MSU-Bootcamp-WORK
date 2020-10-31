@@ -1,1 +1,1 @@
-console.log(Window);
+console.log("Hellooo, Node!");
