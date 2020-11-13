@@ -13,8 +13,8 @@ async function main(){
         },
         {
             type: "input",
-            message: "What is your Project Tittle?",
-            name: "projectTittle"
+            message: "What is your Project Title?",
+            name: "projectTitle"
         },
         {
             type: "input",
