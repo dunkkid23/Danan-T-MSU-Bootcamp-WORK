@@ -1,25 +1,126 @@
-.content{
-    margin-top: 10px;
+body {
+    background-color: #c5c5c5;
+    margin: 0 auto;
+    font-family: 'Futura', 'Roboto', Helvetica, sans-serif;
+    color: #696969;
+}
+#wrapper {
+    background-color: #F5F5F5;
+    margin-left: 15%;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    margin-top: 30px;
+    width: 980px;
+}
+#content {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #FFFFFF;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    font-size: 2em;
+    font-family: 'Futura', 'Roboto', Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+h2 {
+    margin-left: 20px;
+    padding-top: 10px;
     margin-bottom: 10px;
-    background-color: lightgray;
-    padding: 20px;
-    width: 100%;
+    font-size: 1.5em;
+    font-family: 'Futura', 'Roboto', Helvetica, sans-serif;
+    font-weight: bold;
+}
+textarea {
+    padding: 10%;
+    border: dashed 1px gray;
+    margin-left: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 50%;
+    font-family: "Arial", Monaco, monospace;
+    text-align: center;
+    color: #696969;
+    font-size: 20px;
+}
+#btn {
+    margin-top: 20px;
+}
+#generate {
+    background-color: red;
+    font-size: 15px;
+    padding: 14px 40px;
+    border-radius: 15px;
+    margin-left: 18%;
+    margin-bottom: 10px;
+}
+#copy {
+    background-color: #e7e7e7;
+    font-size: 15px;
+    padding: 14px 40px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
-#display{
-width: 100%:auto;
+
+@media screen and (max-width: 980px) {
+
+    body {
+        max-width: 980px;
+    }   
+  
+    #wrapper {
+        width: 100%;
+        }
 }
 
-#slider{
-    width: 100%;
+    @media screen and (max-width: 786px) {
+
+    body {
+        max-width: 786px;
+    } 
+
+    #wrapper {
+        width: 100%;
+        }
+
+#generate {
+    
+    margin-left: 10%;
+    margin-bottom: 10px;
 }
 
-#length{
-    display: inline-block;
-    width: 100px;
-}
 
-.previous_passwords{
-    margin-bottom: 15px;
-}
+    }
 
+    @media screen and (max-width: 640px) {
+
+     body {
+        max-width: 640px;
+    } 
+    
+     #wrapper {
+        width: 100%;
+        }
+        #btn {
+            margin-top: 20px;
+        }
+      
+        #generate {
+            margin-left: 22%;
+            
+        }
+
+        #copy {
+            margin-left: 22%;
+            
+        }
+    
+    }
+    
