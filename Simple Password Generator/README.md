@@ -34,15 +34,15 @@ THEN the password is either displayed in an alert or written to the page
 
 The following image demonstrates the application functionality:
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
+![password generator demo](./Assets/demo.png)
 
 ## Review
 
 You are required to submit the following for review:
 
-* The URL of the deployed application.
+* Deployment link: https://dunkkid23.github.io/Danan-T-MSU-Bootcamp-WORK/Simple%20Password%20Generator/
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+* GitHub repo: https://github.com/dunkkid23/Danan-T-MSU-Bootcamp-WORK/tree/master/Simple%20Password%20Generator
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

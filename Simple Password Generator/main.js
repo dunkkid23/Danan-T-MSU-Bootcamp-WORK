@@ -44,7 +44,7 @@ function generatePassword() {
     enter = parseInt(prompt("How long would you like your password? Choose between 5 and 15"));
     // First if statement for user validation 
     if (!enter) {
-        alert("This needs a value");
+        alert("Where's the value?");
     } else if (enter < 5 || enter > 15) {
         // Validates user input
         // Start user input prompts
