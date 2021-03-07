@@ -38,7 +38,7 @@ SO THAT I can colaborate with like minded creatives
 
 ## Links and Screenshots
 
-GitHub Repository: https://dunkkid23.github.io/Danan-T-MSU-Bootcamp-WORK/Talpic/
+GitHub Repository: https://github.com/dunkkid23/Danan-T-MSU-Bootcamp-WORK/tree/master/Talpic
 
 Deployed Application: http://talpic.herokuapp.com/
 
