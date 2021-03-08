@@ -1,0 +1,4 @@
+  
+.mainContentDiv {
+    min-height: calc(100vh - 65px);
+  }

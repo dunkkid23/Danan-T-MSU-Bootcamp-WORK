@@ -1,0 +1,102 @@
+[
+    {
+    "id": 1,
+    "lastName": "Scott",
+    "firstName": "Michael",
+    "department": "Management",
+    "jobTitle": "Regional Manager",
+    "location": "Scranton",
+    "phone": "202-555-0142",
+    "email": "MikeTheMagic@dundermifflin.com"
+    },
+    {
+    "id": 2,
+    "lastName": "Schrute",
+    "firstName": "Dwight",
+    "department": "Management",
+    "jobTitle": "Assistant to the Regional Manager",
+    "location": "Scranton",
+    "phone": "202-555-0143",
+    "email": "beetfarmer97@dundermifflin.com"
+    },
+    {
+    "id": 3,
+    "lastName": "Bernard",
+    "firstName": "Andy",
+    "department": "Sales",
+    "jobTitle": "Lead Salesperson",
+    "location": "Scranton",
+    "phone": "202-555-0188",
+    "email": "narddog@dundermifflin.com"
+    },
+    {
+    "id": 4,
+    "lastName": "Halpert",
+    "firstName": "Jim",
+    "department": "Sales",
+    "jobTitle": "Lead Salesperson",
+    "location": "Scranton",
+    "phone": "202-555-0100",
+    "email": "sportscaster@dundermifflin.com"
+    },
+    {
+    "id": 5,
+    "lastName": "Halpert",
+    "firstName": "Pam",
+    "department": "Sales",
+    "jobTitle": "Salesperson",
+    "location": "Scranton",
+    "phone": "202-555-0120",
+    "email": "motherof2@dundermifflin.com"
+    },
+    {
+    "id": 6,
+    "lastName": "Philbin",
+    "firstName": "Darryl",
+    "department": "Logistics",
+    "jobTitle": "Logistics Manager",
+    "location": "Scranton",
+    "phone": "202-555-0131",
+    "email": "dphilbin23@dundermifflin.com"
+    },
+    {
+    "id": 7,
+    "lastName": "Hudson",
+    "firstName": "Stanley",
+    "department": "Sales",
+    "jobTitle": "Salesperson",
+    "location": "Scranton",
+    "phone": "202-555-0110",
+    "email": "idratherbeinflorida@dundermifflin.com"
+    },
+    {
+    "id": 8,
+    "lastName": "Vance",
+    "firstName": "Phillis",
+    "department": "Sales",
+    "jobTitle": "Salesperson",
+    "location": "Scranton",
+    "phone": "202-555-0166",
+    "email": "usedtobeadallascowboyscheerleader@dundermifflin.com"
+    },
+    {
+    "id": 9,
+    "lastName": "Gutierrez",
+    "firstName": "Oscar",
+    "department": "Accounting",
+    "jobTitle": "Lead Accountant",
+    "location": "Scranton",
+    "phone": "202-555-0103",
+    "email": "datingthesenator@dundermifflin.com"
+    },
+    {
+    "id": 10,
+    "lastName": "Malone",
+    "firstName": "Kevin",
+    "department": "Accounting",
+    "jobTitle": "Accountant",
+    "location": "Scranton",
+    "phone": "202-555-0543",
+    "email": "lwhatdoesaccountingmean@dundermifflin.com"
+    }
+    ]

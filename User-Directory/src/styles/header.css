@@ -1,0 +1,13 @@
+.header{
+    background-color: red;
+    color: white;
+  }
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  h6 {
+    font-weight: 200;
+    text-align: center;
+  }
